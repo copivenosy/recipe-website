@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover delicious, easy-to-follow recipes for every occasion. From quick weeknight dinners to impressive desserts, find your next favorite dish here.">
+    <meta name="keywords" content="recipes, easy recipes, cooking, food, dinner ideas, desserts, breakfast, lunch">
+    <meta name="author" content="RecipeHub">
+    <meta property="og:title" content="RecipeHub - Your Source for Delicious Recipes">
+    <meta property="og:description" content="Discover delicious, easy-to-follow recipes for every occasion.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>RecipeHub - Easy & Delicious Recipes for Every Occasion</title>
+    <link rel="canonical" href="https://www.recipehub.com/">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxxxxxx"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #f39c12;
+        }
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .cta-button {
+            background-color: #f39c12;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #e67e22;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .article-section {
+            background: white;
+            padding: 3rem 2rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .article-section h2 {
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+        }
+        .article-section p {
+            text-align: justify;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 1rem;
+        }
+        .recipes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        .recipe-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .recipe-card:hover {
+            transform: translateY(-5px);
+        }
+        .recipe-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .recipe-info {
+            padding: 1.5rem;
+        }
+        .recipe-info h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        .recipe-info p {
+            color: #777;
+            font-size: 0.9rem;
+        }
+        .ads-container {
+            margin: 2rem 0;
+            padding: 1rem;
+            background: #f0f0f0;
+            border-radius: 8px;
+            text-align: center;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+        footer a {
+            color: #f39c12;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🍳 RecipeHub</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to RecipeHub</h1>
+        <p>Discover delicious recipes for every occasion</p>
+        <a href="recipes.html" class="cta-button">Browse Recipes</a>
+    </section>
+
+    <main class="container">
+        <article class="article-section">
+            <h2>The Art of Cooking: Transform Your Kitchen Into a Culinary Haven</h2>
+            
+            <p>Cooking is more than just preparing food; it's an art form that brings joy, nourishment, and connection to our daily lives. Whether you're a seasoned chef or a beginner exploring the kitchen, understanding the fundamentals of cooking can transform your approach to food preparation and elevate your dining experience. At RecipeHub, we believe that everyone deserves access to quality recipes and cooking guidance that makes meal preparation enjoyable and accessible.</p>
+
+            <p>The journey of cooking begins with understanding ingredients and their properties. Each ingredient carries its own flavor profile, nutritional value, and cooking characteristics. From aromatic herbs that enhance dishes with minimal effort to proteins that serve as the foundation of balanced meals, every element plays a crucial role. Learning how to select fresh ingredients and store them properly ensures that your dishes maintain their quality and taste. Markets today offer an incredible variety of ingredients from around the world, allowing home cooks to explore diverse cuisines without leaving their neighborhoods.</p>
+
+            <p>Mastering basic cooking techniques is the gateway to culinary confidence. Whether it's sautéing vegetables to achieve the perfect tender-crisp texture, braising meat to develop rich, complex flavors, or baking to create delightful treats, each method serves a purpose. Understanding heat control, timing, and seasoning empowers you to adapt recipes and create variations that suit your preferences. Many cooking challenges stem from simple issues like incorrect temperature or overconfidence in timing. With practice and patience, these obstacles become stepping stones to improvement.</p>
+
+            <p>The beauty of modern cooking lies in accessibility and adaptability. Dietary preferences, allergies, and cultural backgrounds create a diverse landscape of cooking styles and requirements. RecipeHub celebrates this diversity by offering recipes that cater to various dietary needs—vegetarian, vegan, gluten-free, and more. Our collection ensures that everyone can find dishes that align with their values and nutritional goals. Additionally, many classic recipes can be modified to accommodate different ingredients without compromising on taste or satisfaction.</p>
+
+            <p>Cooking for others is an act of love that strengthens relationships and creates lasting memories. Whether you're preparing a quick weeknight dinner for your family or hosting an elaborate dinner party, the effort and care you invest in food preparation speaks volumes. RecipeHub is designed to inspire and guide you through this journey, providing step-by-step instructions, ingredient lists, and cooking tips that ensure success. Start your culinary adventure today and discover how cooking can become your favorite form of self-expression and connection.</p>
+        </article>
+
+        <div class="ads-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-xxxxxxxxxxxxxxxx"
+                 data-ad-slot="xxxxxxxx"
+                 data-ad-format="horizontal"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <section>
+            <h2 style="text-align: center; color: #2c3e50; margin: 2rem 0;">Featured Recipes</h2>
+            <div class="recipes-grid">
+                <div class="recipe-card">
+                    <img src="https://via.placeholder.com/300x200?text=Pasta+Carbonara" alt="Pasta Carbonara">
+                    <div class="recipe-info">
+                        <h3>Classic Pasta Carbonara</h3>
+                        <p>An authentic Italian pasta dish with creamy sauce and crispy bacon.</p>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <img src="https://via.placeholder.com/300x200?text=Chocolate+Cake" alt="Chocolate Cake">
+                    <div class="recipe-info">
+                        <h3>Decadent Chocolate Cake</h3>
+                        <p>Rich, moist chocolate cake perfect for any celebration.</p>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <img src="https://via.placeholder.com/300x200?text=Buddha+Bowl" alt="Buddha Bowl">
+                    <div class="recipe-info">
+                        <h3>Healthy Buddha Bowl</h3>
+                        <p>Nutritious and colorful bowl packed with fresh vegetables.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="ads-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-xxxxxxxxxxxxxxxx"
+                 data-ad-slot="xxxxxxxx"
+                 data-ad-format="horizontal"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 RecipeHub. All rights reserved.</p>
+        <div>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="disclaimer.html">Disclaimer</a>
+            <a href="cookies.html">Cookie Policy</a>
+        </div>
+    </footer>
+
+    <script>
+        // Simple analytics tracking
+        window.addEventListener('load', function() {
+            console.log('RecipeHub loaded successfully');
+        });
+    </script>
+</body>
+</html>
